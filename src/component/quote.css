@@ -1,0 +1,19 @@
+.button {
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 120px;
+    width: 100px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+  }
+  .button:hover {
+    animation: rotate 0.7s ease-in-out both;
+  }
